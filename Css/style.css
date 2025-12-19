@@ -79,3 +79,8 @@ td, th {
 tr:nth-child(even) {
     background-color: #e6d28a;
 }
+
+img:hover {
+    transition: 0.4s;
+    box-shadow: 1px 1px 15px rgb(176, 176, 176);
+}
