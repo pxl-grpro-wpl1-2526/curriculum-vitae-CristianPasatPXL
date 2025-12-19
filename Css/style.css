@@ -42,6 +42,16 @@ h2 {
     padding-bottom: 5px;
     margin-top: 30px;
 }
+h2:hover {
+    transition: 0.4s;
+    text-shadow: 1px 1px 15px rgb(207, 182, 26);
+    color: #4a3f2d;
+}
+h1:hover {
+    transition: 0.4s;
+    text-shadow: 1px 1px 25px rgb(207, 182, 26);
+    color: #4a3f2d;
+}
 
 p {
     margin: 6px;
@@ -82,7 +92,7 @@ tr:nth-child(even) {
 
 img:hover {
     transition: 0.4s;
-    box-shadow: 1px 1px 15px rgb(176, 176, 176);
+    box-shadow: 1px 1px 15px rgb(207, 182, 26);
 }
 #top {
     position: fixed;
