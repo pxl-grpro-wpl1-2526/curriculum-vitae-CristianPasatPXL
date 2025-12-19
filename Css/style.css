@@ -84,3 +84,31 @@ img:hover {
     transition: 0.4s;
     box-shadow: 1px 1px 15px rgb(176, 176, 176);
 }
+#top {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    background: #e6d28a;
+    padding: 10px 15px;
+}
+#top a {
+    color: #4a3f2d;
+    text-decoration: none;
+    font-weight: bold;
+}
+.Footer-Name{
+    float: left;
+    padding-bottom: 50px;
+}
+
+.Footer-Middle{
+    float:right;
+    margin-left: 250px;
+    padding-bottom: 50px;
+}
+.smallLaatste{
+    padding-bottom: 10px;
+    border-bottom: 3px solid #e6d28a;
+    color: #6b5e44;
+    font-size: 14px;
+}
