@@ -102,10 +102,16 @@ img:hover {
     padding: 10px 15px;
     border-radius: 25px;
 }
+#top:hover {
+    transition: 0.4s;
+    box-shadow: 1px 1px 15px rgb(207, 182, 26);
+}
+
 #top a {
     color: #4a3f2d;
     text-decoration: none;
     font-weight: bold;
+
 }
 .Footer-Name{
     float: left;
@@ -123,4 +129,24 @@ img:hover {
     border-bottom: 3px solid #e6d28a;
     color: #6b5e44;
     font-size: 14px;
+}
+@media (min-width: 992px) {
+    .container {
+        flex-direction: row;
+    }
+}
+@media (max-width: 576px) {
+    .container {
+        flex-direction: column;
+    }
+
+    .content {
+        width: 100%;
+    }
+
+    .profile-pic {
+        width: 180px;
+        display: block;
+        margin: auto;
+    }
 }
